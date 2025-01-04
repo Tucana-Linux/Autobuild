@@ -5,7 +5,7 @@ libXau: 1
 libxcb: 1
 libxcvt: 1
 libXdmcp: 1
-libxkbcommon: 1
+libxkbcommon: libxkbcommon.sh
 libxpresent: 1
 mtdev: 1
 twm: 1
