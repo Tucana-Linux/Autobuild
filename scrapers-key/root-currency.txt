@@ -12,7 +12,7 @@ asciidoc: 3
 at-spi2-core: gvfs.sh
 avahi: 3
 blueman: 3
-boost: boost.sh
+boost: 3
 brotli: 3
 bubblewrap: 3
 build_kernel.sh: 1
