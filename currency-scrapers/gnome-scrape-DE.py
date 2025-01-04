@@ -5,7 +5,7 @@ import re
 from natsort import natsorted
 from packaging.version import parse as parseVersion
 import copy
-#url=sys.argv[1]
+url=sys.argv[1]
 #url="https://mirrors.edge.kernel.org/pub/linux/kernel/v6.x/"
 
 
@@ -25,15 +25,21 @@ def return_latest_ver(url):
   return latest_ver
 
 
+def getLinks(ver):
+  url2 = url + '/' + str(ver)
+  print(url2)
 
+  page = requests.get(url2).text
+  doc = BeautifulSoup(page, "html.parser")
+  return doc.find_all('a')
 
-url=sys.argv[1]
-url2 = url + '/' + return_latest_ver(url)
-print(url2)
-
-page = requests.get(url2).text
-doc = BeautifulSoup(page, "html.parser")
-links = doc.find_all('a')
+ver = return_latest_ver(url)
+links = getLinks(ver)
+if '.0' not in links:
+  ver = int(ver)
+  ver-=1
+  links=getLinks(ver)
+  
 for link in links:
   print(link.string)
 
