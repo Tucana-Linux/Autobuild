@@ -407,3 +407,5 @@ sqlite: sqlite.sh
 yq: 3
 simde: 3
 nlohmann-json: 3
+mbedtls: 3
+socat: 1
