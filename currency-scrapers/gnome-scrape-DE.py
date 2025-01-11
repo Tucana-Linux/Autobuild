@@ -33,9 +33,15 @@ def getLinks(ver):
   doc = BeautifulSoup(page, "html.parser")
   return doc.find_all('a')
 
+def checkIfRelease(links):
+  for i in links:
+    if ".0" in i.string:
+      return True
+  return False
+
 ver = return_latest_ver(url)
 links = getLinks(ver)
-if '.0' not in links:
+if not checkIfRelease(links):
   ver = int(ver)
   ver-=1
   links=getLinks(ver)
