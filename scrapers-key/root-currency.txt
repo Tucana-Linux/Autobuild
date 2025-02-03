@@ -409,3 +409,4 @@ simde: 3
 nlohmann-json: 3
 mbedtls: 3
 socat: socat.sh
+pavucontrol: pavucontrol
