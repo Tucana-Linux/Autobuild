@@ -410,3 +410,4 @@ nlohmann-json: 3
 mbedtls: 3
 socat: socat.sh
 pavucontrol: pavucontrol
+gtk-doc: 4
