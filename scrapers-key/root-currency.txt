@@ -286,7 +286,7 @@ libadwaita: gvfs.sh
 gsound: 4
 libchamplain: 4
 vte: gvfs.sh
-vte4: 4
+vte4: gvfs.sh
 zenity: 7
 libsoup: 7
 libgsf: 4
