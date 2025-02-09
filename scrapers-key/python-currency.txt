@@ -54,3 +54,16 @@ python-tqdm: pypi.sh
 python-mdurl: pypi.sh
 python-markdown-it-py: pypi.sh
 python-rich: pypi.sh
+python-alabaster: pypi.sh
+python-imagesize: pypi.sh
+python-snowballstemmer: pypi.sh
+python-sphinxcontrib-applehelp: pypi.sh
+python-sphinxcontrib-jsmath: pypi.sh
+python-babel: pypi.sh
+python-sphinxcontrib-devhelp: pypi.sh
+python-sphinxcontrib-htmlhelp: pypi.sh
+python-sphinxcontrib-qthelp: pypi.sh
+python-sphinxcontrib-serializinghtml: pypi.sh
+python-sphinx: pypi.sh
+
+

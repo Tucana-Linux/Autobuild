@@ -412,3 +412,10 @@ socat: socat.sh
 pavucontrol: pavucontrol
 gtk-doc: 4
 rofi: 3
+fontforge: 3
+libspiro: 3
+potrace: 7
+giflib: 6
+libuninameslist: 3
+acorn: 7
+yarn: 7
