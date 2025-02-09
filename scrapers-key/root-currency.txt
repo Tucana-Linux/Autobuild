@@ -411,3 +411,4 @@ mbedtls: 3
 socat: socat.sh
 pavucontrol: pavucontrol
 gtk-doc: 4
+rofi: 3
