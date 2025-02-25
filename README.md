@@ -55,7 +55,7 @@ To add a package
 2)  Look at the URL and check the source. If the source is not one of the specific ones in the list below it is probably Standard or recursive standard. Find the number in the list below, see note above about 7.
 ```
   1) Standard (classic-parse.sh)
-  2) Recursive Standard (Including Major) (classic-parse-recursive.sh)
+  2) Recursive Standard (Including Major) (recursive-parse.sh)
   3) Github (github-api-scrape.sh)
   4) Gnome
   5) Gnome (DE) (GNOME_DE=1 gnome-scrape.sh) 
