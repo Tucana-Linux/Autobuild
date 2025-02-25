@@ -36,6 +36,11 @@ If you want to use your own Tucana binary or build-scripts repository and not ht
 ### Change Tucana server specific settings
 The autobuild.sh file has Tucana build-server specific settings embedded. The only one you have to care about is email_from_tucana.sh in the email_upgrades function and notify_failed_package function. You can comment them out or change them for your own script that can email a file. No harm comes from commenting out, you can still see the upgrade log in currency/email_upgrades.txt and failed updates in currency/failed_*.txt
 
+### Run autobuild
+```sudo ./autobuild.sh ```
+
+### Retrieve the packages
+The packages that successfully built can be found in chroot/finished/, all build logs are saved in logs/ and anything that failed is denoted by currency/failed_*.txt so you can fix them (keep in mind a package can fail because of a currency check error as well). Put the finished packages into your repo server and run ./rebuild-repo.sh (recommend commenting out the last line which is server specific to upload the new packages to the offical Tucana repo)
 ## Custom Flags
 Certain bash comments in the build scripts have an effect on how the autobuild is run,  
 ```#HOLD_TUCANA``` -- Makes autobuild skip this package, it will not scrape the website for this package  
