@@ -44,7 +44,7 @@ The packages that successfully built can be found in chroot/finished/, all build
 ## Custom Flags
 Certain bash comments in the build scripts have an effect on how the autobuild is run,  
 ```#HOLD_TUCANA``` -- Makes autobuild skip this package, it will not scrape the website for this package  
-```#ARCH_VAR #ARCH_PKG``` -- Cheat code to currency, this will retrieve the package version from the Arch Linux repositories if 7 is specified in the scraper-key, this should be a last ditch method. ARCH_VAR is the variable in the PKGBUILD for the package version (typically pkgver) ARCH_PKG is the package name in the arch repository.
+```#ARCH_VAR #ARCH_PKG``` -- Cheat code to currency, this will retrieve the package version from the Arch Linux repositories if 7 is specified in the scraper-key, this should be a last ditch method. ARCH_VAR is the variable in the PKGBUILD for the package version (typically pkgver) ARCH_PKG is the package name in the arch repository.  
 ```#TAG_OVERRIDE``` -- If using Github (3), it will force it to use tags instead of releases to find the latest version.
 
 
