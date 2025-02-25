@@ -80,3 +80,10 @@ Tip: gvfs.sh can be used for gnome packages that operate on the even-minor-is-st
 ```prep.sh``` -- This will take the directory that you are currently in and update autobuild.conf so you don't have to modify it manually.
 ```lib32-match.txt``` -- Any package that has a lib32 counterpart should be listed in here so currency does not have to be repeated
 ```autobuild.conf``` -- The configuration file for autobuild. If you place your github api-key in /srv/secret.txt you likely won't need to modify this beyond running ./prep.sh
+
+# Other things
+The script auto clones the build-scripts repo and uses git to commit new versions. It will automatically rollback packages that have failed.  
+currency/ is the temporary storage for all the random files that autobuild generates.  
+
+# Contributing
+We always welcome contributors, feel free to file PRs or an issue.
