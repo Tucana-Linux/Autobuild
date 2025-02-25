@@ -1,7 +1,7 @@
 # This initalizes building packages based on the currency check output for the day
 
 # Again, this is some of the worst yet most functional code I have ever written.  Please read everything twice before assuming that something doesn't work. 
-# To use this script you have to change paths in 3 files, convert_txt_to_script.sh (run the build_new_currency function to make a new currency.sh), $BUILD_SCRIPTS_ROOT/scripts/generate_pkgvers.sh and this file to make the currency checks work.
+# To use this script run ./prep.sh and then ./autobuild.sh
 source autobuild.conf
 rm -rf $AUTOBUILD_ROOT
 mkdir -p $AUTOBUILD_ROOT
