@@ -43,6 +43,7 @@ The autobuild.sh file has Tucana build-server specific settings embedded. The on
 The packages that successfully built can be found in chroot/finished/, all build logs are saved in logs/ and anything that failed is denoted by currency/failed_*.txt so you can fix them (keep in mind a package can fail because of a currency check error as well). Put the finished packages into your repo server and run ./rebuild-repo.sh (recommend commenting out the last line which is server specific to upload the new packages to the offical Tucana repo)
 ## Custom Flags
 Certain bash comments in the build scripts have an effect on how the autobuild is run,  
+
 ```#HOLD_TUCANA``` -- Makes autobuild skip this package, it will not scrape the website for this package  
 ```#ARCH_VAR #ARCH_PKG``` -- Cheat code to currency, this will retrieve the package version from the Arch Linux repositories if 7 is specified in the scraper-key, this should be a last ditch method. ARCH_VAR is the variable in the PKGBUILD for the package version (typically pkgver) ARCH_PKG is the package name in the arch repository.  
 ```#TAG_OVERRIDE``` -- If using Github (3), it will force it to use tags instead of releases to find the latest version.
@@ -77,9 +78,11 @@ Tip: gvfs.sh can be used for gnome packages that operate on the even-minor-is-st
 
 ```scrapers-key/``` -- This contains lookup-tables for which currency-scraper script (from currency-scrapers) to use for scraping the version. Each folder in the main repository should get a .txt file here in the format $DIRECTORY-currency.txt. All files in this directory will automatically be used, just make sure to update ```automation-scripts/generate_pkgvers.sh```  
 
-```prep.sh``` -- This will take the directory that you are currently in and update autobuild.conf so you don't have to modify it manually.
-```lib32-match.txt``` -- Any package that has a lib32 counterpart should be listed in here so currency does not have to be repeated
-```autobuild.conf``` -- The configuration file for autobuild. If you place your github api-key in /srv/secret.txt you likely won't need to modify this beyond running ./prep.sh
+```prep.sh``` -- This will take the directory that you are currently in and update autobuild.conf so you don't have to modify it manually.  
+
+```lib32-match.txt``` -- Any package that has a lib32 counterpart should be listed in here so currency does not have to be repeated  
+
+```autobuild.conf``` -- The configuration file for autobuild. If you place your github api-key in /srv/secret.txt you likely won't need to modify this beyond running ./prep.sh  
 
 # Other things
 The script auto clones the build-scripts repo and uses git to commit new versions. It will automatically rollback packages that have failed.  
