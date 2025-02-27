@@ -199,7 +199,7 @@ packagekit: 1
 packagekit-qt: 1
 pam: 3
 pango: 7
-parse-yapp: 1
+perl-parse-yapp: 1
 patchutils: 1
 pciutils: 1
 pcre: 7
@@ -419,3 +419,15 @@ giflib: 6
 libuninameslist: 3
 acorn: 7
 yarn: 7
+perl-io-string: 1
+perl-font-ttf: 1
+nano: 1
+dovecot: 2
+exim: 1
+perl-file-fcntllock: 1
+libnsl: 3
+libogg: 1
+libpcap: 1
+libpwquality: 3
+libsamplerate: 3
+
