@@ -431,3 +431,4 @@ libpcap: 1
 libpwquality: 3
 libsamplerate: 3
 umockdev: 3
+xmlto: 7
