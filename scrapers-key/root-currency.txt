@@ -181,7 +181,7 @@ mtool: 1
 nasm: 7
 net-tools: gnu-efi
 nettle: 1
-network-manager: gvfs.sh
+network-manager: network-manager.sh
 newt: 1
 nghttp2: 3
 nodejs: nodejs.sh
@@ -421,7 +421,7 @@ acorn: 7
 yarn: 7
 perl-io-string: 1
 perl-font-ttf: 1
-nano: 1
+nano: 7
 dovecot: 2
 exim: 1
 perl-file-fcntllock: 1
