@@ -432,3 +432,6 @@ libpwquality: 3
 libsamplerate: 3
 umockdev: 3
 xmlto: 7
+gimp: 2
+libmypaint: 3
+mypaint-brushes: 3
