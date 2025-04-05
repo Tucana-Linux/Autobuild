@@ -435,3 +435,4 @@ xmlto: 7
 gimp: 2
 libmypaint: 3
 mypaint-brushes: 3
+vala: 4

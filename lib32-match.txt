@@ -113,3 +113,4 @@ lib32-gnutls
 lib32-libtasn1
 lib32-spirv-llvm-translator
 lib32-libpsl
+lib32-spirv-tools
