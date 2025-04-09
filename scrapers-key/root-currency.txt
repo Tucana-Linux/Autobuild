@@ -437,3 +437,4 @@ libmypaint: 3
 mypaint-brushes: 3
 vala: 4
 appstream-glib: 1
+ostree: 3
