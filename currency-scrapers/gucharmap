@@ -1,0 +1,11 @@
+#!/bin/bash
+source /home/rahul/Git-Clones/gnome-test/autobuild.conf
+PACKAGE=$1
+
+cd $BUILD_SCRIPTS_ROOT
+REPO="GNOME/gucharmap"
+PROJECT_ID=$(echo $REPO | sed 's!/!%2F!')
+GITLAB_SERVER="https://gitlab.gnome.org"
+LATEST_VER=$(curl \
+  -Ls "$GITLAB_SERVER/api/v4/projects/$PROJECT_ID/repository/tags")
+echo $LATEST_VER | jq '.[0].name' | sed -e 's/v//g' -e 's/"//g'
