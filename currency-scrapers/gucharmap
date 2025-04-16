@@ -1,5 +1,5 @@
 #!/bin/bash
-source /home/rahul/Git-Clones/gnome-test/autobuild.conf
+source autobuild.conf
 PACKAGE=$1
 
 cd $BUILD_SCRIPTS_ROOT
