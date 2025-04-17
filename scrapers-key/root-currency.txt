@@ -438,3 +438,5 @@ mypaint-brushes: 3
 vala: 4
 appstream-glib: 1
 ostree: 3
+libblockdev: 3
+libbytesize: 3
