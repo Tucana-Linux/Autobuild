@@ -282,4 +282,10 @@ for PACKAGE in $UPGRADE_PACKAGES; do
 done
 
 echo $SUCCESSFUL_PACKAGES
+if [[ -d $CHROOT/dev ]]; then
+  umount $CHROOT/dev/pts
+  umount $CHROOT/dev
+  umount $CHROOT/proc
+  umount $CHROOT/sys
+fi
 exit 0
