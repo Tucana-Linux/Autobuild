@@ -440,3 +440,5 @@ appstream-glib: 1
 ostree: 3
 libblockdev: 3
 libbytesize: 3
+libnvme: 3
+udisks: 3
