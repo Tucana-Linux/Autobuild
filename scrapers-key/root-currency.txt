@@ -443,3 +443,4 @@ libbytesize: 3
 libnvme: 3
 udisks: 3
 xdg-utils: 8
+lynx: lynx
