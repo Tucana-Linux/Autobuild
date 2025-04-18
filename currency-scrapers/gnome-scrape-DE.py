@@ -35,7 +35,7 @@ def getLinks(ver):
 
 def checkIfRelease(links):
   for i in links:
-    if ".0" in i.string:
+    if (".0" in i.string) or (".1" in i.string):
       return True
   return False
 
