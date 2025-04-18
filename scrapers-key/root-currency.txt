@@ -391,7 +391,7 @@ libmng: 6
 shaderc: 3
 sysprof: 5
 libpanel: 4
-liburing: 7
+liburing: 3
 libdex: 4
 libcloudproviders: 4
 gexiv2: 4
