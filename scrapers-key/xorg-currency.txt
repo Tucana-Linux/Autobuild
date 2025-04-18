@@ -66,3 +66,12 @@ libXxf86vm: 1
 xtrans: 1
 libwacom: 3
 xf86-video-vmware: 1
+font-ibm-type1: 1
+encodings: 1
+font-xfree86-type1: 1
+font-bh-type1: 1
+font-adobe-utopia-type1: 1
+font-bh-ttf: 1
+font-alias: 1
+font-misc-ethiopic: 1
+font-util: 1
