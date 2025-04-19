@@ -177,7 +177,7 @@ mariadb: 7
 mesa: 1
 mesa-utils: mesa-demos
 mitkrb: 2
-mtool: 1
+mtools: 1
 nasm: 7
 net-tools: gnu-efi
 nettle: 1
@@ -444,3 +444,5 @@ libnvme: 3
 udisks: 3
 xdg-utils: 8
 lynx: lynx
+xdg-user-dirs: 1
+libproxy: 3
