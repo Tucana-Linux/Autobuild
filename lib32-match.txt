@@ -72,7 +72,7 @@ lib32-libXxf86dga
 lib32-libfontenc
 lib32-libXvMC
 lib32-libvdpau
-lib32-libXdcmp
+lib32-libXdmcp
 lib32-xorgproto
 lib32-glib
 lib32-libsndfile
