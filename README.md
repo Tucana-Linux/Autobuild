@@ -7,6 +7,9 @@ Oversimplifying, this repo contains a variety of scripts that scrape the interne
 
 It does this by web-scraping and then creating a fresh image of Tucana that it chroot's into for the build
 
+# Why?
+Tucana is incredibly difficult to maintain as it is. This takes the majority of the load off and allows me to get back to making more features and adding to the unique parts of the distro instead of spending all my time mindlessly updating packages. (See git commits from before Jun of 2023 to see what that was like)
+
 # Usage
 This was NOT designed for the end-user, this is considered an internal tool but here are instructions to use it.
 (currency is the process of checking if a program is out-of-date). We would like to emphasize that this program has NO WARRANTY, We are not responsible
