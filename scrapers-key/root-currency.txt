@@ -282,7 +282,7 @@ libxklavier: 1
 gtk4: gvfs.sh
 rest: 4
 glade: 4
-libadwaita: gvfs.sh
+libadwaita: 4
 gsound: 4
 libchamplain: 4
 vte: gvfs.sh
