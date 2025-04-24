@@ -257,7 +257,7 @@ webkitgtk5.0: webkitgtk.sh
 webp-pixbuf-loader: 3
 wget: 1
 which: 1
-wine: 1
+wine: 8
 woff2: 3
 wpa_supplicant: 1
 x11vnc: 3
