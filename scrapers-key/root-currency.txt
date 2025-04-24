@@ -67,7 +67,7 @@ glslang: 3
 glu: 1
 gnutls: 2
 gobject-introspection: gvfs.sh
-google-test: 3
+googletest: 3
 gpgme: 1
 gpm: 1
 graphene: 4
