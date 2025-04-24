@@ -248,7 +248,7 @@ usbutils: 3
 uthash: 3
 v4l-utils: 1
 virt-viewer: 1
-vkd3d: 1
+vkd3d: 8
 vlc: 2
 wayland-protocols: 8
 webkitgtk: webkitgtk.sh
