@@ -6,7 +6,7 @@ libxcb: 1
 libxcvt: 1
 libXdmcp: 1
 libxkbcommon: libxkbcommon.sh
-libxpresent: 1
+libXpresent: 1
 mtdev: 1
 twm: 1
 util-macros: 1
