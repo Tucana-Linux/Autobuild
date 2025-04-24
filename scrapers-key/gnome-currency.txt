@@ -20,7 +20,7 @@ gnome-color-manager: 5
 gnome-console: 5
 gnome-control-center: 5
 gnome-desktop: 5
-gnome-disk-utility: 5
+gnome-disk-util: 5
 gnome-keyring: 5
 gnome-logs: 5
 gnome-maps: 5
