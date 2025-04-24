@@ -293,7 +293,6 @@ libgsf: 4
 libgnomekbd: 4
 brasero: 4
 caribou: 4
-gfbgraph: 4
 localsearch: 4
 tinysparql: gnome-2.sh
 totem-pl-parser: 4

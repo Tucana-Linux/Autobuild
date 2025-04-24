@@ -36,7 +36,7 @@ python-pluggy: pypi.sh
 setuptools-scm: pypi.sh
 python-typing-extensions: pypi.sh
 python-calver: 3
-python-trove-classifers: pypi.sh
+python-trove-classifiers: pypi.sh
 python-markdown: pypi.sh
 pyproject-hooks: pypi.sh
 python-typogrify: pypi.sh
