@@ -445,3 +445,4 @@ xdg-utils: 8
 lynx: lynx
 xdg-user-dirs: 1
 libproxy: 3
+rtkit: 3
