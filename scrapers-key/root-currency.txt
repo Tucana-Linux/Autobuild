@@ -446,3 +446,4 @@ lynx: lynx
 xdg-user-dirs: 1
 libproxy: 3
 rtkit: 3
+inotify-tools: 3
