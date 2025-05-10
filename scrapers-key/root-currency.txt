@@ -421,7 +421,7 @@ yarn: 7
 perl-io-string: 1
 perl-font-ttf: 1
 nano: 7
-dovecot: 2
+dovecot: dovecot.sh
 exim: 1
 perl-file-fcntllock: 1
 libnsl: 3
@@ -447,3 +447,6 @@ xdg-user-dirs: 1
 libproxy: 3
 rtkit: 3
 inotify-tools: 3
+libmbim: 8
+modem-manager: 8
+libqmi: 8
