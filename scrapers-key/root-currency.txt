@@ -450,3 +450,4 @@ inotify-tools: 3
 libmbim: 8
 modem-manager: 8
 libqmi: 8
+bash-completion: 3
