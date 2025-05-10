@@ -451,3 +451,4 @@ libmbim: 8
 modem-manager: 8
 libqmi: 8
 bash-completion: 3
+luajit: luajit.sh
