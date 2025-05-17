@@ -66,3 +66,4 @@ python-sphinxcontrib-qthelp: pypi.sh
 python-sphinxcontrib-serializinghtml: pypi.sh
 python-sphinx: pypi.sh
 python-pytest: pypi.sh
+python-pylint: pypi.sh
