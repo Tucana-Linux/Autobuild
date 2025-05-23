@@ -453,3 +453,26 @@ libqmi: 8
 bash-completion: 3
 luajit: luajit.sh
 flac: 3
+libbpf: 3
+libnet: 3
+libmnl: 1
+libnftnl: 1
+nftables: 1
+libmd: 1
+libbsd: 1
+stress: 3
+criu: 3
+runc: 3
+btrfs-progs: 1
+lzo: 1
+aardvark-dns: 3
+netavark: 3
+go-md2man: 3
+containerd:3
+buildkit: 3
+docker-buildx: 3
+pigz: 7
+docker-cli: 3
+docker-moby: 3
+tini: 3
+libedit: 7

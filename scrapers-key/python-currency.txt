@@ -58,6 +58,8 @@ python-alabaster: pypi.sh
 python-imagesize: pypi.sh
 python-snowballstemmer: pypi.sh
 python-sphinxcontrib-applehelp: pypi.sh
+python-sphinx-rtd-theme: pypi.sh
+python-sphinxcontrib-jquery: pypi.sh
 python-sphinxcontrib-jsmath: pypi.sh
 python-babel: pypi.sh
 python-sphinxcontrib-devhelp: pypi.sh
@@ -67,3 +69,5 @@ python-sphinxcontrib-serializinghtml: pypi.sh
 python-sphinx: pypi.sh
 python-pytest: pypi.sh
 python-pylint: pypi.sh
+python-protobuf: pypi.sh
+python-roman-numerals-py: pypi.sh
