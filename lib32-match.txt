@@ -37,7 +37,6 @@ lib32-xorg
 lib32-libxau
 lib32-libxcb
 lib32-xcb-proto
-lib32-xwayland
 lib32-util-macros
 lib32-libX11
 lib32-libXtst
