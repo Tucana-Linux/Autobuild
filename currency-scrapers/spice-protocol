@@ -3,7 +3,7 @@ source autobuild.conf
 PACKAGE=$1
 
 cd $BUILD_SCRIPTS_ROOT
-REPO=spice/spice-protocol
+REPO=spice/$1
 PROJECT_ID=$(echo $REPO | sed 's!/!%2F!')
 GITLAB_SERVER="https://gitlab.freedesktop.org"
 LATEST_VER=$(curl \
