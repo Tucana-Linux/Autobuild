@@ -9,7 +9,8 @@ if [[ $? -ne 0 ]]; then
 fi
 REPO=$(cat $(find . -name $PACKAGE) | grep URL | head -1 | sed 's/.*\.com//' | sed 's/.*\.org//' | sed 's|/|!|3' | sed 's/!.*//' | sed 's/^.//')
 PROJECT_ID=$(echo $REPO | sed 's!/!%2F!')
-GITLAB_SERVER=$(cat $(find . -name $PACKAGE)  | grep URL= | sed 's/URL=//' | sed 's/.com.*/.com\//g' | sed 's/.org.*/.org\//g' )
+GITLAB_SERVER=$(find . -name "$PACKAGE" -exec grep -m1 '^URL=' {} \; | cut -d'=' -f2 | sed -E 's|(https?://[^/]+).*|\1|')
 LATEST_VER=$(curl \
-  -Ls "$GITLAB_SERVER/api/v4/projects/$PROJECT_ID/releases/" | jq | grep tag_name | grep -v dev | grep -v rc | grep -Eo '[0-9+]\.[0-9]+\.[0-9+]' | sort -rV | head -1)
+  -Ls "${GITLAB_SERVER}/api/v4/projects/$PROJECT_ID/releases" | jq -r 'map(select(.tag_name | test("rc|dev") | not)) | sort_by(.created_at) | last(.[]).tag_name')
 echo $LATEST_VER
+
