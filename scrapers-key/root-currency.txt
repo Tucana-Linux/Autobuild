@@ -228,7 +228,7 @@ spdlog: 3
 speex: 1
 spice-gtk: spice-protocol
 spice-protocol: spice-protocol
-spirv-headers: spice-protocol
+spirv-headers: 3
 spirv-tools: 3
 squashfs-tools: 3
 sshfs: 3
