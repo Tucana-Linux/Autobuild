@@ -11,10 +11,10 @@ REPO=$(cat $(find . -name $PACKAGE) | grep URL | head -1 | sed 's/.*\.com//' | s
 PROJECT_ID=$(echo $REPO | sed 's!/!%2F!')
 GITLAB_SERVER=$(find . -name "$PACKAGE" -exec grep -m1 '^URL=' {} \; | cut -d'=' -f2 | sed -E 's|(https?://[^/]+).*|\1|')
 LATEST_VER=$(curl \
-  -Ls "${GITLAB_SERVER}/api/v4/projects/$PROJECT_ID/releases/permalink/latest" |  jq -r '.tag_name' | sed  -e 's/^v//' -e 's/.*-//')
-# Some apps have TAG_OVERRIDE because the tags are newer than the releases, in that case use those instead
-cat $(find . -name $PACKAGE) | grep TAG_OVERRIDE &> /dev/null
-if [[ $? == 0 ]]; then
-   LATEST_VER=""
+  -Ls "${GITLAB_SERVER}/api/v4/projects/$PROJECT_ID/releases/permalink/latest"  |  jq -r '.tag_name' | sed  -e 's/^v//' -e 's/.*-//')
+if [[ $LATEST_VER == "null" ]]; then
+   LATEST_VER=$(curl \
+     -Ls "${GITLAB_SERVER}/api/v4/projects/$PROJECT_ID/repository/tags"  |  jq -r 'map(select(.name | test("-(dev|rc)") | not)) | .[0].name'  | sed  -e 's/^v//' -e 's/.*-//')
+  
 fi
 echo $LATEST_VER
