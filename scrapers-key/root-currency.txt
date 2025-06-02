@@ -226,7 +226,6 @@ slang: 1
 smartmontools: 6
 spdlog: 3
 speex: 1
-speexdsp-EXTRA: 1
 spice-gtk: spice-gtk
 spice-protocol: spice-protocol
 spirv-headers: spirv-headers
