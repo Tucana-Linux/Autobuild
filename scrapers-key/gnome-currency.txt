@@ -38,7 +38,7 @@ gnome-system-monitor: 5
 gnome-terminal: 4
 gnome-tweaks: 5
 gnome-user-docs: 5
-gnome-video-effects: 5
+gnome-video-effects: 4
 gnome-weather: 5
 gsettings-desktop-schemas: 5
 libwnck: 5
