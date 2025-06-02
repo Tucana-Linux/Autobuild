@@ -15,7 +15,7 @@ blueman: 3
 boost: 3
 brotli: 3
 bubblewrap: 3
-linux-tucana 1
+linux-tucana: 1
 busybox: 1
 c-ares: 3
 ca-certificates: 3
