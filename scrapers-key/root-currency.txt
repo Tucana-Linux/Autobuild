@@ -363,7 +363,7 @@ i2c-tools: 1
 libaccounts-qt: 7
 libaccounts-glib: 7
 grantlee: 3
-gavl: 6
+gavl: gavl.sh
 frei0r-plugins: 1
 mlt: 3
 kdsoap: 3
