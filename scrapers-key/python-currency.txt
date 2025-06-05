@@ -76,3 +76,5 @@ python-html5lib: pypi.sh
 python-webencodings: pypi.sh
 python-genshi: pypi.sh
 python-soupsieve: pypi.sh
+python-fastnumbers: pypi.sh
+python-natsort: pypi.sh
