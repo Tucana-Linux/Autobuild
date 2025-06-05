@@ -20,8 +20,8 @@ itself from your host system.
 You MUST be on Tucana to run this and have at least 30gb of free space
 ### Install dependencies
 ```sudo neptune install python-requests python-urllib3 python-packaging```  
-### Install BeautifulSoup from pip
-```sudo pip3 install beautifulsoup4```
+### Install BeautifulSoup from neptune
+```sudo neptune install python-beautifulsoup4```
 ### Clone the Repo
 ```git clone https://github.com/Tucana-Linux/Tucana-Autobuild.git && cd Tucana-Autobuild```
 Make sure you have a global email and name set for Git (google it), Tucana-Autobuild uses git internally for revision tracking
