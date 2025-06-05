@@ -71,3 +71,8 @@ python-pytest: pypi.sh
 python-pylint: pypi.sh
 python-protobuf: pypi.sh
 python-roman-numerals-py: pypi.sh
+python-beautifulsoup4: pypi.sh
+python-html5lib: pypi.sh
+python-webencodings: pypi.sh
+python-genshi: pypi.sh
+python-soupsieve: pypi.sh
