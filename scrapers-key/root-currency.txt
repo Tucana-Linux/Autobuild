@@ -475,3 +475,4 @@ docker-cli: 3
 docker-moby: 3
 tini: 3
 libedit: 7
+cronie: 3
