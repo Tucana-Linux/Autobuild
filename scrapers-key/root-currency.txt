@@ -477,3 +477,5 @@ tini: 3
 libedit: 7
 cronie: 3
 onig: 3
+sof-firmware: 3
+perl-json: 1
