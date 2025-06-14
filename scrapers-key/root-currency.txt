@@ -478,3 +478,4 @@ cronie: 3
 onig: 3
 sof-firmware: 3
 perl-json: 1
+numactl: 3
