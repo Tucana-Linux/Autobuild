@@ -479,3 +479,8 @@ onig: 3
 sof-firmware: 3
 perl-json: 1
 numactl: 3
+ayatana-ido: 3
+libayatana-indicator: 3
+libayatana-appindicator: 3
+sunshine: 3
+miniupnpc: 1
