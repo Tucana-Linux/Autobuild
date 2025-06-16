@@ -416,7 +416,6 @@ giflib: giflib.sh
 libuninameslist: 3
 acorn: 7
 yarn: 7
-<<<<<<< Updated upstream
 perl-io-string: 1
 perl-font-ttf: 1
 nano: 7
@@ -496,3 +495,4 @@ icon-naming-utils: 1
 libaio: 7
 libplacebo: 3
 glad: 3
+moonlight: 3
