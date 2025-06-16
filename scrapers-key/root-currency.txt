@@ -485,23 +485,12 @@ libayatana-indicator: 3
 libayatana-appindicator: 3
 sunshine: 3
 miniupnpc: 1
-=======
 dosfstools: 3
 fftw: 1
 flac: 1
-xdg-utils: 8
 lynx: 1
-udisks: 3
 alsa-utils: 1
 cracklib: 3
 gspell: 4
 icon-naming-utils: 1
 libaio: 7
-libnvme: 3
-libblockdev: 3
-libbytesize: 3
-libgusb: 3
-libnsl: 3
-libpcap: 1
-libogg: 1
->>>>>>> Stashed changes
