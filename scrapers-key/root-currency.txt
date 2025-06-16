@@ -495,3 +495,4 @@ gspell: 4
 icon-naming-utils: 1
 libaio: 7
 libplacebo: 3
+glad: 3
