@@ -17,7 +17,7 @@ ARCH_PKG=$(cat $PACKAGE_LOCATION | grep ARCH_PKG= | sed 's/\#ARCH_PKG=//')
 ARCH_VAR=$(cat $PACKAGE_LOCATION | grep ARCH_VAR= | sed 's/\#ARCH_VAR=//')
 wget -q https://gitlab.archlinux.org/archlinux/packaging/packages/$ARCH_PKG/-/raw/main/PKGBUILD
 
-PKG_VER=$(cat PKGBUILD | grep "$ARCH_VAR=" | sed "s/$ARCH_VAR=//")
+PKG_VER=$(cat PKGBUILD | grep "^$ARCH_VAR=" | sed "s/$ARCH_VAR=//")
 echo $PKG_VER
 
 
