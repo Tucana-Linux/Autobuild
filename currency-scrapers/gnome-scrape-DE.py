@@ -35,9 +35,9 @@ def getLinks(ver):
 
 def checkIfRelease(links):
   for i in links:
-    if (".0" in i.string) or (".1" in i.string):
-      return True
-  return False
+    if ("LATEST" in i.string) and ("alpha" in i.string) or ("beta" in i.string):
+      return False
+  return True
 
 ver = return_latest_ver(url)
 links = getLinks(ver)
