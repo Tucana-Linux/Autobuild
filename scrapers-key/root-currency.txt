@@ -497,3 +497,4 @@ libplacebo: 3
 glad: 3
 moonlight: 3
 perl-xml-simple: 1
+perl-archive-zip: 1
