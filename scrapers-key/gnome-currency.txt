@@ -51,3 +51,4 @@ yelp: 5
 yelp-xsl: 5
 gucharmap: gucharmap
 adwaita-fonts: 5
+gnome-font-viewer: 5
