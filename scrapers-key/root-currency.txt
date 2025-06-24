@@ -69,6 +69,7 @@ gnutls: 2
 gobject-introspection: gvfs.sh
 googletest: 3
 gpgme: 1
+gpgmepp: 1
 gpm: 1
 graphene: 4
 graphite2: 3
