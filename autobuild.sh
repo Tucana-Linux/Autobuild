@@ -92,6 +92,7 @@ chroot_setup() {
   echo "nameserver 1.1.1.1" > $CHROOT/etc/resolv.conf
   chroot $CHROOT /bin/bash -c "make-ca -g --force"
   chroot $CHROOT /bin/bash -c "pwconv"
+  chroot $CHROOT /bin/bash -c 'echo "root:autobuild | sudo chpasswd'
   
   # Kernel & Build Essentials (steam is the easiest way to get the lib32 stuff)
   chroot $CHROOT /bin/bash -c "neptune sync"
