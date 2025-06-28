@@ -7,7 +7,7 @@ apache: 1
 appstream: 1
 apr: apr.sh
 apr-util: 1
-archive-zip: 1
+perl-archive-zip: 1
 asciidoc: 3
 at-spi2-core: gvfs.sh
 avahi: 3
@@ -500,3 +500,5 @@ moonlight: 3
 perl-xml-simple: 1
 perl-archive-zip: 1
 btop: 3
+perl-net-ssleay: 1
+perl-io-socket-ssl: 1
