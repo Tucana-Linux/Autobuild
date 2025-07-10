@@ -57,7 +57,7 @@ freetype2: freetype.sh
 fribidi: 3
 fuse3: 3
 gdb: 1
-gdk-pixbuf: 4
+gdk-pixbuf: gvfs.sh
 geoclue: 8
 git: 1
 glib: gvfs.sh
@@ -391,7 +391,7 @@ libpanel: 4
 liburing: 3
 libdex: 4
 libcloudproviders: 4
-gexiv2: 4
+gexiv2: gvfs.sh
 js128: js128.sh
 gnome-autoar: 4
 grilo: 4
