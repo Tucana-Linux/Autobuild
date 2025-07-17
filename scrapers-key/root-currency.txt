@@ -75,6 +75,7 @@ graphene: 4
 graphite2: 3
 graphviz: 8
 gst-plugins-bad: gstreamer.sh
+gstreamer-vaapi: gstreamer.sh
 gst-plugins-base: gstreamer.sh
 gst-plugins-good: gstreamer.sh
 gst-plugins-ugly: gstreamer.sh
@@ -502,3 +503,6 @@ btop: 3
 perl-net-ssleay: 1
 perl-io-socket-ssl: 1
 git-lfs: 3
+libvpl: 3
+intel-media-sdk: 3
+vpl-gpu-rt: 3
