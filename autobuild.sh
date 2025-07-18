@@ -141,7 +141,7 @@ order() {
      echo "$UPGRADE_PACKAGES" | grep -E -x "$depend" > /dev/null
      if [[ $? == 0 ]]; then
         # Remove
-        UPGRADE_PACKAGES_TEMP="$(echo "$UPGRADE_PACKAGES_TEMP" | sed "/$depend/d")"
+        UPGRADE_PACKAGES_TEMP="$(echo "$UPGRADE_PACKAGES_TEMP" | sed "/^$depend$/d")"
         # Move it to the beginning
         UPGRADE_PACKAGES_TEMP1="$(echo "$UPGRADE_PACKAGES_TEMP" | sed "1i $depend")"
         UPGRADE_PACKAGES_TEMP="$UPGRADE_PACKAGES_TEMP1"
