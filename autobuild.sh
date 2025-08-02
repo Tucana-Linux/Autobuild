@@ -1,6 +1,5 @@
 # This initalizes building packages based on the currency check output for the day
 
-# Again, this is some of the worst yet most functional code I have ever written.  Please read everything twice before assuming that something doesn't work. 
 # To use this script run ./prep.sh and then ./autobuild.sh
 source autobuild.conf
 rm -rf $AUTOBUILD_ROOT
