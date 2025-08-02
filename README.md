@@ -1,6 +1,20 @@
-# Tucana-Autobuild
+# Tucana Autobuild
+**Tucana-Autobuild** is a fully automated build-and-upgrade system for the [Tucana Linux](https://github.com/Tucana-Linux) distribution.
 
-The autobuild system used for Tucana. This likely should not be run by an end user.
+It powers over **1000 packages** with nightly rebuilds, version detection via custom scrapers, and full binary regeneration inside an isolated chroot environment. As of mid-2025, the system has processed **10,000+ successful builds**, with automated rollback for failures.
+
+> This system is intended for maintainers, not end users. Most builds succeed; failed commits are automatically reverted and logged in the build-scripts repo and autobuild-logs (https://github.com/Tucana-Linux/autobuild-logs).
+
+---
+
+##  At a Glance
+
+-  **Smart Web Scrapers**: Uses BeautifulSoup and bash/awk-based logic to detect upstream versions from GitHub, Gnome, SourceForge, and more.
+-  **Chrooted Builds**: Regenerates a full minimal Tucana image for isolated, reproducible builds.
+-  **Self-Healing**: Automatically reverts broken package updates and retains historical logs.
+-  **Repo Automation**: Updates the binary repo and metadata on success.
+
+---
 
 # What?
 Oversimplifying, this repo contains a variety of scripts that scrape the internet to 1) Find the latest version of a program 2) Update it.
