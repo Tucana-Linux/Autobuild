@@ -55,7 +55,7 @@ freeglut: 3
 freerdp: 3
 freetype2: freetype.sh
 fribidi: 3
-fuse3: 3
+fuse: 3
 gdb: 1
 gdk-pixbuf: gvfs.sh
 geoclue: 8
