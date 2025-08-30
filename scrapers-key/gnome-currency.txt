@@ -12,7 +12,7 @@ evolution-data-server: 4
 file-roller: 5
 gcr-4: 4
 gdm: 5
-gjs: 4
+gjs: gvfs.sh
 gnome-backgrounds: 5
 gnome-bluetooth: 5
 gnome-calculator: 5
