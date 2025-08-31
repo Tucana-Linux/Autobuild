@@ -516,3 +516,6 @@ gupnp-igd: 4
 gupnp: 4
 gssdp: 4
 libsrtp: 3
+portaudio: 3
+xournalpp: 3
+libzip: 7
