@@ -10,7 +10,7 @@ import copy
 
 
 
-def return_latest_ver(url):
+def get_versions(url):
   versions=[]
   page = requests.get(url).text
   doc = BeautifulSoup(page, "html.parser")
@@ -20,20 +20,29 @@ def return_latest_ver(url):
     if version:
        versions.append(copy.deepcopy(version.group()))
   versions.sort(key = parseVersion)
-  print(versions)
-  latest_ver=versions[-1]
-  return latest_ver
+  return versions
 
+def checkIfRelease(links):
+  for i in links:
+    if ("LATEST" in i.string) and (("alpha" in i.string) or ("beta" in i.string) or ("rc" in i.string)):
+      return False
+  return True
 
 
 
 url=sys.argv[1]
-url2 = url + '/' + return_latest_ver(url)
+url2 = url + '/' + get_versions(url)[-1]
 print(url2)
 
 page = requests.get(url2).text
 doc = BeautifulSoup(page, "html.parser")
 links = doc.find_all('a')
+if not checkIfRelease(links):
+    url2 = url + '/' + get_versions(url)[-2]
+    page = requests.get(url2).text
+    doc = BeautifulSoup(page, "html.parser")
+    links = doc.find_all('a')
+
 for link in links:
   print(link.string)
 
