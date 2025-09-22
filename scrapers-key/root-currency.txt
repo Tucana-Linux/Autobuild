@@ -519,3 +519,4 @@ libsrtp: 3
 portaudio: 3
 xournalpp: 3
 libzip: 7
+libslirp: 8
