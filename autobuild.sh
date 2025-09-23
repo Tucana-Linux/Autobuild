@@ -245,7 +245,7 @@ for PACKAGE in $UPGRADE_PACKAGES; do
    chroot $CHROOT /bin/bash -c "neptune install --y $PACKAGE"
    echo "Installing Depends"
    install_make_depends "$PACKAGE"
-   chroot $CHROOT /bin/bash -c "bash -e /Tucana-Build-Scripts/$LOCATION" &> $LOG_ROOT/$PACKAGE-$(date '+%m-%d-%Y').log
+   chroot $CHROOT /bin/bash -c "MAKEFLAGS=-j$(nproc) bash -e /Tucana-Build-Scripts/$LOCATION" &> $LOG_ROOT/$PACKAGE-$(date '+%m-%d-%Y').log
    if [[ $? -ne 0 ]]; then
      notify_failed_package "$PACKAGE" "1"
      cd $BUILD_SCRIPTS_ROOT
