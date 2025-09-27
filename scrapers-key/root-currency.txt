@@ -520,3 +520,4 @@ portaudio: 3
 xournalpp: 3
 libzip: 7
 libslirp: 8
+libaom: libaom.sh
