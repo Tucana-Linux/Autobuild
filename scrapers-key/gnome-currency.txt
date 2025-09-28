@@ -6,7 +6,6 @@ dconf-editor: 5
 dynamic-wallpaper: 3
 eog: 5
 epiphany: 5
-evince: 5
 evolution: 4
 evolution-data-server: 4
 file-roller: 5
@@ -52,3 +51,5 @@ yelp-xsl: 5
 gucharmap: gucharmap
 adwaita-fonts: 5
 gnome-font-viewer: 5
+showtime: 5
+papers: 5

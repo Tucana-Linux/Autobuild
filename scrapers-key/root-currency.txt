@@ -83,6 +83,7 @@ gst-plugins-ugly: gstreamer.sh
 gstreamer: gstreamer.sh
 gtk3: 7
 gtksourceview4: 7
+gtksourceview: 4
 gvfs: gvfs.sh
 harfbuzz: 3
 hicolor-icons: 1
@@ -521,3 +522,13 @@ xournalpp: 3
 libzip: 7
 libslirp: 8
 libaom: libaom.sh
+blueprint-compiler: 4
+libspelling: 4
+djvulibre: 6
+itstool: 3
+catch2: 3
+gtkmm4: 4
+libcairomm: cairo.sh
+pangomm: 4
+atkmm: 4
+typescript: 3
