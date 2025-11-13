@@ -315,7 +315,6 @@ bluez: 1
 libexif: 3
 dhcpcd: 3
 adwaita: 5
-firefox-esr: js115.sh
 rdfind: rdfind.sh
 swig: 3
 libavif: 3
