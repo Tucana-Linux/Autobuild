@@ -50,7 +50,7 @@ firefox: firefox.sh
 flatpak: 3
 fltk: 3
 fmt: 3
-fontconfig: 1
+fontconfig: 8
 freeglut: 3
 freerdp: 3
 freetype2: freetype.sh
