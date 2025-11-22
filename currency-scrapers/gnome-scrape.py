@@ -17,7 +17,7 @@ def get_versions(url):
   links = doc.find_all('a')
   for link in links: 
     version = re.search(r'[0-9]+.[0-9]+', link.string)
-    if version and "rc" not in version.group():
+    if version:
        versions.append(copy.deepcopy(version.group()))
   versions.sort(key = parseVersion)
   return versions
