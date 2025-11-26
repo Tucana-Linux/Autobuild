@@ -532,3 +532,4 @@ atkmm: 4
 typescript: 3
 libfyaml: 3
 nm-applet: 4
+simde: 3
