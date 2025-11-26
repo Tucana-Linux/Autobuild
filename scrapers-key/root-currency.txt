@@ -478,7 +478,7 @@ libedit: 7
 cronie: 3
 onig: 3
 sof-firmware: 3
-perl-json: 1
+perl-json: perl-json.sh
 numactl: 3
 ayatana-ido: 3
 libayatana-indicator: 3
