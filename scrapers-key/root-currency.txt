@@ -525,7 +525,7 @@ libspelling: 4
 djvulibre: 6
 itstool: 3
 catch2: 3
-gtkmm4: 4
+gtkmm4: gvfs.sh
 libcairomm: cairo.sh
 pangomm: 4
 atkmm: 4
