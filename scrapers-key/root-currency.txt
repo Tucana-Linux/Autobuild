@@ -534,3 +534,4 @@ libfyaml: 3
 nm-applet: 4
 simde: 3
 cups-pk-helper: 1
+wl-clipboard: 3
