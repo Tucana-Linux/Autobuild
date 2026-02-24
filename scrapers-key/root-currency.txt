@@ -537,3 +537,5 @@ cups-pk-helper: 1
 wl-clipboard: 3
 alsa-ucm-conf: 1
 alsa-topology-conf: 1
+nmap: 1
+liblinear: 3
