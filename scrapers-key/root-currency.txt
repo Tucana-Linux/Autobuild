@@ -540,3 +540,4 @@ alsa-topology-conf: 1
 nmap: 1
 liblinear: 3
 docker-compose: 3
+ethtool: 1
