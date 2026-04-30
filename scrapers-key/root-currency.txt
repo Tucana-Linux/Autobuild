@@ -541,3 +541,4 @@ nmap: 1
 liblinear: 3
 docker-compose: 3
 ethtool: 1
+tmux: 3
